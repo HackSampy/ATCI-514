@@ -8,8 +8,8 @@ CONTRASENA_GMAIL = 'micontraseña'
 DESTINATARIO = 'destinatario@dominio.com'
 REMITENTE = 'micorreo@gmail.com'
  
-ASUNTO  = ' ¡ Hay un intruso en su hogar. ! '
-MENSAJE = ' ¡ Su sensor de seguridad ha detectado movimiento en su casa. ! '
+ASUNTO  = ' ¡ ATCI514. ! '
+MENSAJE = ' ¡ Hay una posible inundación. ! '
  
 arduino = serial.Serial('COM3', 9600, timeout = 3.0)    #El puerto se abre inmediatamente en la creación de objetos, cuando se da un puerto.
 
